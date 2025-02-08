@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  font-size: 1.2rem;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: rgb(255, 255, 255,0.8);
+}
+
+.container1{
+  background: white;
+  width: max-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  text-align: center;
+  width: 30vw;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.container2{
+  background: white;
+  width: max-content;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+  width: 30vw;
+  font-weight: 600;
+  margin-top:2rem ;
+}
+.container2 div{
+  text-align: left;
+  font-size: 0.9rem;
+}
+.container2 label{
+  margin-bottom: 1rem;
+}
+.containerInput{
+  display: block;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+  font-size: 1.25rem;
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  color: white;
+}
+.containerInput::placeholder{
+  font-size: 1rem;
+}
+button{
+  background: transparent;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.9rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+
+}
+button:hover{
+  cursor: pointer;
+}
+.container3{
+  margin-top: 1rem;
+}
+
+.container3 button{
+  background-color: white;
+  margin: 1rem;
+}
+h2{
+  text-align: center;
+  font-size: 2rem;
+}
+li{
+  width: 40px !important;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 40px !important;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  display: block;
+  position: absolute;
+  top:  50%; 
+  left: 50%;
+  margin: -(40px / 2);
+  width:  40px;
+  height: 40px;
+
+}
+
+ul{
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.red{
+  background-color: 'red';
+}
